@@ -1,0 +1,136 @@
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 24px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  max-width: 200px !important;
+  /* min-height: 10px !important; */
+  max-height: 50px !important;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h5 {
+  font-size: 200%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.jumbotron {
+  padding: 2rem;
+  border-radius: 0;
+}
+
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.welcome hr {
+  border: 0;
+  border-bottom: 5px dashed #ccc;
+  background: #999
+}
+
+.three-column{
+  background-color: #ccc;
+  padding-top: 30px;
+}
+
+.three-column i {
+  font-size: 4rem;
+  margin-bottom: 5px;
+}
+
+.team-column{
+  background-color: #999;
+}
+
+hr.style-eight {
+  overflow: visible;
+  /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  width: 50%;
+
+}
+
+hr.style-eight:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+
+hr.style-seven {
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  width: 50%;
+}
+
+hr.style-seven:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+footer{
+  background-color: #000;
+  color: #999;
+}
+
+footer img{
+  max-width: 200px !important;
+  /* min-height: 10px !important; */
+  max-height: 50px !important;
+}
+hr.light {
+  border-top: 2px solid #333;
+  width: 50%;
+}
